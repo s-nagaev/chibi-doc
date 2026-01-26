@@ -1,98 +1,67 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Chibi",
+  "name": "Documentation",
   "theme": "mint",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": "#0D9373"
+    "dark": "#0D9373"
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "https://t.me/chibi_support"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "GitHub",
-    "url": "https://github.com/s-nagaev/chibi"
-  },
-  "primaryTab": {
-    "name": "Documentation"
-  },
-  "tabs": [
-    {
-      "name": "Documentation",
-      "url": "introduction"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://t.me/chibi_support"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart"
-      ]
-    },
-    {
-      "group": "Installation",
-      "pages": [
-        "installation/docker-compose",
-        "installation/manual-setup"
-      ]
-    },
-    {
-      "group": "Configuration",
-      "pages": [
-        "configuration/core-settings",
-        "configuration/ai-providers",
-        "configuration/storage-database",
-        "configuration/deployment-modes",
-        "configuration/advanced-experimental"
-      ]
-    },
-    {
-      "group": "Agent Mode",
-      "pages": [
-        "agent-mode/introduction",
-        "agent-mode/threat-model-risks",
-        "agent-mode/best-practices"
-      ]
-    },
-    {
-      "group": "Guides",
-      "pages": [
-        "guides/get-api-keys",
-        "guides/secure-your-bot",
-        "guides/customize-personality",
-        "guides/mcp-integration",
-        "guides/agent-mode-security",
-        "guides/persistent-history"
-      ]
-    },
-    {
-      "group": "Support",
-      "pages": [
-        "support/troubleshooting",
-        "support/faq"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "github": "https://github.com/s-nagaev/chibi",
-    "telegram": "https://t.me/chibi_support"
+  "navigation": {
+    "pages": [
+      "introduction",
+      "quickstart"
+    ],
+    "groups": [
+      {
+        "group": "Installation",
+        "pages": [
+          "installation/docker-compose",
+          "installation/manual-setup"
+        ]
+      },
+      {
+        "group": "Configuration",
+        "pages": [
+          "configuration/core-settings",
+          "configuration/ai-providers",
+          "configuration/deployment-modes",
+          "configuration/storage-database",
+          "configuration/advanced-experimental"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/get-api-keys",
+          "guides/customize-personality",
+          "guides/persistent-history",
+          "guides/mcp-integration",
+          "guides/secure-your-bot",
+          "guides/agent-mode-security"
+        ]
+      },
+      {
+        "group": "Agent Mode",
+        "pages": [
+          "agent-mode/introduction",
+          "agent-mode/best-practices",
+          "agent-mode/threat-model-risks"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "support/faq",
+          "support/troubleshooting"
+        ]
+      }
+    ],
+    "anchors": [
+      {
+        "anchor": "Changelog",
+        "icon": "clock",
+        "pages": ["changelog"]
+      }
+    ]
   }
 }
