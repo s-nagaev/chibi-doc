@@ -1,6 +1,6 @@
 ---
-title: 'Quickstart'
-description: 'Get Chibi up and running in less than 5 minutes.'
+title: Quickstart
+description: Get Chibi up and running in less than 5 minutes.
 ---
 
 ## Prerequisites

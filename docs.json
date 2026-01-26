@@ -1,6 +1,6 @@
 {
   "name": "Chibi",
-  "theme": "mint",
+  "theme": "mint", 
   "logo": {
     "light": "/logo/logo-light.png",
     "dark": "/logo/logo-dark.png"
