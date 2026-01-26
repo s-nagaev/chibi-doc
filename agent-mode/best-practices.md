@@ -3,10 +3,6 @@ title: 'Agent Mode: Best Practices'
 description: 'Practical tips for using Chibi Agent Mode effectively'
 ---
 
-# Best Practices for Agent Mode
-
-To get the most out of Agent Mode while maintaining control over your project, follow these practical guidelines.
-
 ## 1. Start with a Clear, Specific Goal
 
 The quality of your high-level objective directly impacts the agent's performance.

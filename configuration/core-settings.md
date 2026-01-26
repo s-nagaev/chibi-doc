@@ -3,10 +3,6 @@ title: 'Core Settings'
 description: 'Essential configuration for Chibi: Telegram connection, access control, and agent behavior.'
 ---
 
-# Core Settings
-
-This section covers the essential configurations for your Chibi instance, including its connection to Telegram, access control, and global behavior settings.
-
 ## Telegram Connection
 
 These variables define how your bot connects to the Telegram platform. A `TELEGRAM_BOT_TOKEN` is always required.

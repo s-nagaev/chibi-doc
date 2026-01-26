@@ -1,6 +1,10 @@
 {
-  "name": "Documentation",
+  "name": "Chibi",
   "theme": "mint",
+  "logo": {
+    "light": "/logo/logo-light.png",
+    "dark": "/logo/logo-dark.png"
+  },
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",

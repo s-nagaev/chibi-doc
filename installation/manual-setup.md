@@ -3,10 +3,6 @@ title: 'Manual Installation'
 description: 'Run Chibi directly from source code.'
 ---
 
-# Manual Installation
-
-This guide covers how to run Chibi directly from the source code. This is useful for development or if you cannot use Docker.
-
 ## Prerequisites
 
 -   **Python 3.10+**: Ensure Python is installed (`python --version`).

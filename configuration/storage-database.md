@@ -2,9 +2,6 @@
 title: 'Storage & Database'
 description: 'Configure persistence layers: Local, Redis, DynamoDB, and InfluxDB.'
 ---
-
-# Storage & Database
-
 Chibi supports multiple storage backends for persisting user data and conversation history.
 
 ## Storage Priority
