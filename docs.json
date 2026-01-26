@@ -9,8 +9,7 @@
   "navigation": {
     "pages": [
       "introduction",
-      "quickstart",
-      "changelog"
+      "quickstart"
     ],
     "groups": [
       {
