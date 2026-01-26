@@ -2,9 +2,6 @@
 title: 'Deployment Modes'
 description: 'Understanding Private vs. Public modes in Chibi.'
 ---
-
-# Deployment Modes
-
 Chibi can operate in two distinct modes depending on your use case: **Private** (default) and **Public**.
 
 ## Private Mode (Default)

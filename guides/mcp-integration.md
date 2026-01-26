@@ -1,4 +1,7 @@
-# MCP (Model Context Protocol) Integration
+---
+title: MCP (Model Context Protocol) Integration
+description: Endless possibilities for your agent.
+---
 
 ## What is MCP?
 

@@ -1,9 +1,8 @@
 ---
-title: Introduction
+title: Meet Chibi. Not a Tool. A Companion.
 description: Your Digital Companion. Your Orchestrator. Your Partner in the Digital World.
 ---
-
-# Meet Chibi: Not a Tool. A Companion.
+<img src="/logo/logo.png" alt="Description" style={{ width: 150, display: 'block', margin: '0 auto' }} />
 
 There's a moment that comes to every creator, every builder, every person navigating the complexity of modern digital life - when you realize you need more than software. You need a *partner*.
 
@@ -17,7 +16,7 @@ Chibi is a **Digital Companion** that works *beside* you, *for* you, and sometim
   <Card title="🚀 Begin Your Journey" icon="rocket" href="/quickstart">
     Your companion awaits. Deploy in 60 seconds.
   </Card>
-  <Card title="🛠️ Explore the Source" icon="github" href="https://github.com/pysergio/chibi-telegram-bot">
+  <Card title="🛠️ Explore the Source" icon="github" href="https://github.com/s-nagaev/chibi">
     See what makes Chibi tick. Contribute to the vision.
   </Card>
 </CardGroup>
@@ -52,8 +51,6 @@ And Chibi *spawns companions* - sub-agents, each one a focused mind working on a
 
 This is what it means to have a **Digital Companion**.
 
-![Chibi in action](https://i.imgur.com/m8aC8K8.gif)
-
 ---
 
 ## The Power Behind the Persona
@@ -76,10 +73,10 @@ But here's where it gets beautiful:
 
 Chibi doesn't just *use* these models. It **orchestrates** them.
 
-Gemini assesses a task's complexity and delegates to DeepSeek to save your budget.  
-GPT-5.2 calls Claude Sonnet for a second opinion on a critical decision.  
-Claude generates images using Google's Imagen.  
-OpenAI transcribes your voice. MiniMax speaks back to you with natural, expressive voices.
+***Gemini*** assesses a task's complexity and delegates to ***DeepSeek*** to save your budget.  
+***GPT-5.2*** calls ***Claude Sonnet*** for a second opinion on a critical decision.  
+***Claude*** generates images using Google's ***Nano Banana***.  
+***OpenAI*** transcribes your voice. ***MiniMax*** speaks back to you with natural, expressive voices.
 
 **This is not a single model pretending to be everything. This is a conductor leading an orchestra.**
 
@@ -217,5 +214,3 @@ Ready to orchestrate a symphony of AI capabilities behind a singular voice - *yo
 ---
 
 > *"Chibi is not a utility, not just a coder, and not just a chatbot. Chibi is a companion."*
-
-Welcome home.

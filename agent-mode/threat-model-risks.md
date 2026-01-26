@@ -2,9 +2,6 @@
 title: 'Threat Model & Risks'
 description: 'Understanding the security risks of Agent Mode and the built-in defenses.'
 ---
-
-# Threat Model & Risks
-
 Agent Mode grants an AI model the ability to execute shell commands and modify files. While Chibi includes a robust AI-based moderation system, understanding the residual risks is crucial for safe operation.
 
 ## Built-in Defense: AI Command Moderator
@@ -33,12 +30,12 @@ The agent might misunderstand your intent or "hallucinate" a solution that is te
 
 ## Summary of Risks & Mitigations
 
-| Risk | Description | Primary Defense | Severity | Likelihood |
-| :--- | :--- | :--- | :--- | :--- |
-| **Destructive Commands** | `rm -rf`, `mkfs` | **AI Command Moderator** | **Critical** | **Low** |
-| **Secret Leakage** | Reading `.env`, `.ssh` | **AI Command Moderator** | **Critical** | **Low** |
-| **Prompt Injection** | Malicious external input | **AI Command Moderator** | **High** | **Medium** |
-| **Logical Errors** | Misinterpreting user commands | **None** (Requires supervision) | **Medium** | **High** |
+| Risk                     | Description                   | Primary Defense                 | Severity     | Likelihood |
+|:-------------------------|:------------------------------|:--------------------------------|:-------------|:-----------|
+| **Destructive Commands** | `rm -rf`, `mkfs`              | **AI Command Moderator**        | **Critical** | **Low**    |
+| **Secret Leakage**       | Reading `.env`, `.ssh`        | **AI Command Moderator**        | **Critical** | **Low**    |
+| **Prompt Injection**     | Malicious external input      | **AI Command Moderator**        | **High**     | **Medium** |
+| **Logical Errors**       | Misinterpreting user commands | **None** (Requires supervision) | **Medium**   | **Medium** |
 
 ## Conclusion
 

@@ -3,8 +3,6 @@ title: 'Customize Personality'
 description: 'How to shape Chibi''s behavior using Skills and Memory.'
 ---
 
-# Customize Personality
-
 Chibi is designed to be a flexible companion. You can customize its personality and capabilities through **Skills** and **User Info**.
 
 ## Bot Name

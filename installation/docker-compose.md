@@ -3,10 +3,6 @@ title: 'Docker Compose Installation'
 description: 'The recommended way to deploy Chibi using Docker Compose.'
 ---
 
-# Docker Compose Installation
-
-This is the recommended method for deploying Chibi. It ensures your data is persistent and allows for easy configuration.
-
 ## Prerequisites
 
 -   **Docker & Docker Compose:** [Install Docker](https://docs.docker.com/get-docker/).

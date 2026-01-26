@@ -1,4 +1,7 @@
-# Agent Mode: Security and Command Moderation
+---
+title: Agent Mode. Security and Command Moderation
+description: The Moderator under hood. Silent and Strict.
+---
 
 ## Overview
 

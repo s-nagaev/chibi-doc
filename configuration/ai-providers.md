@@ -3,8 +3,6 @@ title: 'AI Providers & Models'
 description: 'Configure API keys, models, and generation parameters for text, image, and voice.'
 ---
 
-# AI Providers & Models
-
 Chibi supports a wide range of AI providers. You can configure which models to use for text, images, and voice, as well as fine-tune their behavior.
 
 ## Master API Keys

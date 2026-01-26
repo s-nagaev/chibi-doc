@@ -3,8 +3,6 @@ title: 'Agent Mode: Introduction'
 description: 'Introduction to Chibi Agent Mode'
 ---
 
-# Introduction to Agent Mode
-
 **Agent Mode** transforms Chibi from a reactive chatbot into a proactive, autonomous agent capable of interacting with your local system.
 
 ## What is Agent Mode?

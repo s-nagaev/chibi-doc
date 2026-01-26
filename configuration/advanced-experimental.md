@@ -1,6 +1,7 @@
-# Advanced & Experimental Settings
-
-This section covers advanced configuration for fine-tuning model behavior, image generation, and enabling experimental features like the Model Context Protocol (MCP).
+---
+title: Advanced & Experimental Settings
+description: This section covers advanced configuration for fine-tuning model behavior, image generation, and enabling experimental features like the Model Context Protocol (MCP).
+---
 
 ## Image Generation
 

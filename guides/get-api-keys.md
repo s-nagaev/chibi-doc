@@ -3,8 +3,6 @@ title: 'Get API Keys'
 description: 'Where to sign up and get API keys for supported providers.'
 ---
 
-# Get API Keys
-
 To use Chibi's full potential, you'll need API keys from various AI providers. Here is a list of supported services and where to get their keys.
 
 ## Major LLM Providers
