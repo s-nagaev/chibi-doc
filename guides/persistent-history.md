@@ -1,4 +1,7 @@
-# How to Enable Persistent Conversation History
+---
+title: 'Persistent History'
+description: 'How to Enable Persistent Conversation History'
+---
 
 This guide will help you configure Chibi to maintain conversation history across restarts, ensuring continuity and context.
 

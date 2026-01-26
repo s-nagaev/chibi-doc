@@ -3,8 +3,6 @@ title: 'Secure Your Bot'
 description: 'Essential security configurations for access control and privacy.'
 ---
 
-# Secure Your Bot
-
 By default, Chibi is a private bot. However, misconfiguration can expose it to unauthorized users. This guide covers the essential settings to keep your bot secure.
 
 ## Access Control (Whitelists)

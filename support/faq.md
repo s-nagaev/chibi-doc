@@ -3,8 +3,6 @@ title: 'FAQ'
 description: 'Frequently Asked Questions about Chibi.'
 ---
 
-# Frequently Asked Questions
-
 ### What is the difference between Chibi and other bots?
 Chibi is designed as a **Digital Companion**, not just a tool. It features persistent memory, supports multiple AI providers (OpenAI, Anthropic, Gemini, etc.), and can perform autonomous tasks on your computer via Agent Mode.
 
