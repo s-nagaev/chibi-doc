@@ -9,6 +9,13 @@
   "navigation": {
     "groups": [
       {
+        "group": "Getting Started",
+        "pages": [
+          "introduction",
+          "quickstart"
+        ]
+      },
+      {
         "group": "Installation",
         "pages": [
           "installation/docker-compose",
