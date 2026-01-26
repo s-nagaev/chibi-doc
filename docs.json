@@ -7,11 +7,14 @@
     "dark": "#0D9373"
   },
   "navigation": {
-    "pages": [
-      "introduction",
-      "quickstart"
-    ],
     "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "introduction",
+          "quickstart"
+        ]
+      },
       {
         "group": "Installation",
         "pages": [
