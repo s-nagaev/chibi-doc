@@ -13,7 +13,7 @@ Not a chatbot. Not a utility. Not just another AI wrapper that regurgitates text
 Chibi is a **Digital Companion** that works *beside* you, *for* you, and sometimes even *ahead* of you. It's the senior colleague who never sleeps, the research assistant who never tires, the orchestrator who coordinates a symphony of capabilities you didn't even know you needed.
 
 <CardGroup cols={2}>
-  <Card title="🚀 Begin Your Journey" icon="rocket" href="/quickstart">
+  <Card title="🚀 Begin Your Journey" icon="rocket" href="/start">
     Your companion awaits. Deploy in 60 seconds.
   </Card>
   <Card title="🛠️ Explore the Source" icon="github" href="https://github.com/s-nagaev/chibi">
