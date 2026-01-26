@@ -56,13 +56,6 @@
           "support/troubleshooting"
         ]
       }
-    ],
-    "anchors": [
-      {
-        "anchor": "Changelog",
-        "icon": "clock",
-        "pages": ["changelog"]
-      }
     ]
   }
 }
