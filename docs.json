@@ -1,5 +1,6 @@
 {
   "name": "Documentation",
+  "theme": "mint",
   "navigation": {
     "pages": [
       "introduction",
