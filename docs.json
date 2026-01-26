@@ -7,10 +7,6 @@
     "dark": "#0D9373"
   },
   "navigation": {
-    "pages": [
-      "introduction",
-      "quickstart"
-    ],
     "groups": [
       {
         "group": "Installation",
