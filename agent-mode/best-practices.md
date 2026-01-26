@@ -32,4 +32,4 @@ Before letting the agent run fully autonomously on a large task, supervise its i
 -   **Check the "Thoughts":** If `SHOW_LLM_THOUGHTS` is enabled, read the agent's internal reasoning to ensure it understands the context correctly.
 -   **Monitor:** Keep an eye on the output to ensure it's not going down a rabbit hole.
 
-> **Return to:** [Agent Mode Introduction](./introduction.md)
+> **Return to:** [Agent Mode Introduction](introduction.md)

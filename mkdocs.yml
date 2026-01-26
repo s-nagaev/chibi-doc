@@ -1,6 +1,6 @@
 site_name: Chibi Documentation
 
-docs_dir: docs
+docs_dir: .
 
 nav:
   - Introduction: introduction.md

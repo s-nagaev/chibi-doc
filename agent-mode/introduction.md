@@ -39,4 +39,4 @@ Enabling Agent Mode gives an AI model access to your computer's shell and files.
 
 Therefore, it is recommended to run Agent Mode in an isolated environment (like Docker) rather than directly on your host machine's root filesystem.
 
-> **Next:** [Threat Model & Risks](./threat-model-risks.md)
+> **Next:** [Threat Model & Risks](threat-model-risks.md)
