@@ -10,7 +10,8 @@ description: 'Introduction to Chibi Agent Mode'
 In standard mode, Chibi is sandboxed and can only interact with you via text/images. In **Agent Mode**, Chibi gains access to powerful system-level tools:
 
 *   **Filesystem Access:** Read, write, create, and delete files.
-*   **Terminal Execution:** Run shell commands directly.
+*   **Terminal Execution:** Run shell commands directly.*   
+*   **Command Moderation:** All terminal commands are pre-moderated by an AI system supporting 9 providers (Alibaba, Anthropic, DeepSeek, Gemini, Grok, MiniMax, Mistral, Moonshot, OpenAI) to ensure safety and prevent dangerous operations. Optional settings `moderation_provider` and `moderation_model` allow customization.
 *   **Task Delegation:** Spawn sub-agents to handle specific subtasks.
 
 This allows Chibi to perform tasks like:
