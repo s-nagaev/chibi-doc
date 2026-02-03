@@ -36,12 +36,15 @@ You can specify which models Chibi should use by default.
 | `DEFAULT_MODEL`       | The default LLM for text chat.                                     | `None` (Auto-select) |
 | `DEFAULT_PROVIDER`    | The default provider for text chat.                                | `None` (Auto-select) |
 | `DEFAULT_IMAGE_MODEL` | The default model for image generation.                            | `None` (Auto-select) |
+| `MODERATION_PROVIDER` | The provider for command moderation.                               | `None`               |
+| `MODERATION_MODEL`    | The model used for command moderation.                             | `None`               |
 | `MODELS_WHITELIST`    | Comma-separated list of allowed models. If empty, all are allowed. | `None`               |
 
 ### Available Models (Examples)
 *   **OpenAI:** `gpt-5.2`, `gpt-5.1`, `o3`, `o4-mini`
 *   **Anthropic:** `claude-sonnet-4-5-20250929`, `claude-haiku-4-5-20251001`
-*   **Gemini:** `models/gemini-3-pro-preview`, `models/gemini-2.5-flash`
+*   **Grok:** `grok-4-1-fast-reasoning`, `grok-beta`
+*   **Gemini:** `gemini-2.5-pro`, `gemini-3-pro`
 *   **Alibaba:** `qwen3-max`, `qwen-max`
 
 ## Text Generation Parameters
@@ -82,3 +85,11 @@ Configure Speech-to-Text (STT) and Text-to-Speech (TTS) capabilities.
 | `STT_MODEL`    | Model used for transcription.             | `None` (Auto-select) |
 | `TTS_PROVIDER` | Provider for generating voice responses.  | `None` (Auto-select) |
 | `TTS_MODEL`    | Model used for speech generation.         | `None` (Auto-select) |
+### MiniMax TTS Specific Settings
+For MiniMax Text-to-Speech, you can configure the following:
+
+| Variable      | Description                               | Default              |
+|:--------------|:------------------------------------------|:---------------------|
+| `MINIMAX_TTS_MODEL` | The specific MiniMax TTS model to use.    | `speech-2.8-turbo`   |
+| `MINIMAX_TTS_VOICE` | The voice to use for MiniMax TTS.         | `Korean_HaughtyLady` |
+
