@@ -42,8 +42,31 @@ Fine-tune how the bot behaves in public or shared spaces.
 *   **Effect:** If set to `False`, Chibi will ignore all messages sent by other bots.
 *   **Use Case:** Prevents infinite loops where two bots keep replying to each other. **Keep this disabled unless you have a specific reason.**
 
+## Pre-start Security Checks
+
+Chibi 1.6.1+ includes automatic security validations that run before the bot starts. These checks prevent dangerous configurations that could lead to security vulnerabilities.
+
+### What Gets Checked
+
+| Check                      | Condition                                        | Action                                                 |
+|:---------------------------|:-------------------------------------------------|:-------------------------------------------------------|
+| **Private Mode Whitelist** | `PUBLIC_MODE=False` without `USERS_WHITELIST`    | **Blocks startup** - You must specify authorized users |
+| **Public + Filesystem**    | `PUBLIC_MODE=True` with `FILESYSTEM_ACCESS=True` | **Blocks startup** - Too risky for public access       |
+| **Filesystem in Groups**   | `FILESYSTEM_ACCESS=True` with group usage        | **Shows warning** - Consider if needed                 |
+
+### Why These Checks Matter
+
+1.  **Prevent Unauthorized Access:** Without a user whitelist in private mode, anyone who knows your bot's username could interact with it and use your API credits.
+
+2.  **Protect Sensitive Data:** Public bots with filesystem access could allow malicious users to read sensitive files from your server.
+
+3.  **Reduce Accidental Exposure:** The warning for filesystem access in groups helps you reconsider before enabling potentially risky configurations.
+
 ## Best Practices
 
 1.  **Never share your `.env` file.** It contains your API keys and bot token.
 2.  **Use IDs over Usernames.** Usernames can be changed; IDs are permanent. You can find your ID using bots like `@userinfobot`.
 3.  **Review Logs.** Periodically check your logs for "Unauthorized access attempt" messages to see if strangers are trying to use your bot.
+4.  **Always configure `USERS_WHITELIST`** in private mode - Chibi will prevent starting without it.
+5.  **Never enable `FILESYSTEM_ACCESS`** in public mode - this is blocked by security checks.
+6.  **Keep `ALLOW_BOTS=False`** unless specifically needed to prevent bot-to-bot loops.

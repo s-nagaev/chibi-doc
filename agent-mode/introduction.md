@@ -38,4 +38,23 @@ Enabling Agent Mode gives an AI model access to your computer's shell and files.
 
 Therefore, it is recommended to run Agent Mode in an isolated environment (like Docker) rather than directly on your host machine's root filesystem.
 
+### Loop Detection (`LoopDetectedException`)
+
+Agent Mode includes built-in protection against infinite tool call loops that can occur when an AI model gets stuck in repetitive patterns (e.g., repeatedly reading the same file, retrying failed commands, or calling the same tool with slightly different arguments).
+
+**What it prevents:**
+*   Infinite loops that would consume API credits and system resources
+*   Recursive tool calls that never terminate
+*   Models getting stuck in retry cycles
+
+**When it triggers:**
+The system uses a `CallTracker` to monitor how many times each tool is called by a specific model:
+- **Warning threshold (5 calls):** The system logs a warning and returns an `ABORTED` status to the model, suggesting it might be stuck in a loop.
+- **Break threshold (7 calls):** A `LoopDetectedException` is raised, terminating the execution loop.
+
+**How to handle it:**
+*   If you encounter this exception, review your task - it may need to be broken down into smaller steps.
+*   For complex multi-step tasks, consider using **Task Delegation** to split work across multiple agents.
+*   The thresholds can be customized per tool via `loop_warning` and `loop_break` class attributes if needed (advanced).
+
 > **Next:** [Threat Model & Risks](threat-model-risks.md)

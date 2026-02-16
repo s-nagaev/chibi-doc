@@ -50,7 +50,7 @@ Start the bot using Poetry:
 poetry run python main.py
 ```
 
-> **Note:** We are working on simplifying the installation process. Soon you will be able to install Chibi with a single command via `pip install`.
+> **Tip:** For a simpler installation, see [Pip Installation](pip-installation.md).
 
 ## Troubleshooting
 

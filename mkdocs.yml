@@ -3,15 +3,15 @@ site_name: Chibi Documentation
 docs_dir: .
 
 nav:
-  - Introduction: introduction.md
-  - Deployment:
-      - Overview: deployment/overview.md
-      - Management Menu: deployment/deployment_for_management_menu.md
-      - How to Deploy Docs: deploy_docs_to_mintlify.md
+  - Introduction: 
+      - Home: introduction.md
+      - Getting Started: start.md
   - Configuration:
       - Core Settings: configuration/core-settings.md
+      - Deployment Modes: configuration/deployment-modes.md
       - AI Providers: configuration/ai-providers.md
       - Storage & Database: configuration/storage-database.md
+      - Advanced & Experimental: configuration/advanced-experimental.md
   - Guides:
       - Getting API Keys: guides/get-api-keys.md
       - Customize Personality: guides/customize-personality.md
@@ -20,7 +20,12 @@ nav:
       - Secure Your Bot: guides/secure-your-bot.md
       - MCP Integration: guides/mcp-integration.md
       - Agent Mode Security: guides/agent-mode-security.md
+  - Agent Mode:
+      - Introduction: agent-mode/introduction.md
+      - Threat Model & Risks: agent-mode/threat-model-risks.md
+      - Best Practices: agent-mode/best-practices.md
   - Installation:
+      - Pip Installation: installation/pip-installation.md
       - Manual Setup: installation/manual-setup.md
       - Docker Compose: installation/docker-compose.md
   - Support:

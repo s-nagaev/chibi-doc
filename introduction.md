@@ -63,10 +63,11 @@ Behind that singular voice, Chibi orchestrates a *coalition* of the world's most
 
 - **OpenAI GPT-5.2** for reasoning and code
 - **Anthropic Claude 4.5 Sonnet** for nuanced understanding and review
-- **Google Gemini 3 Pro** for multimodal tasks and vision
+- **Google Gemini 2.5 Pro** for multimodal tasks and vision
 - **DeepSeek** for cost-effective deep work
 - **Alibaba Qwen Max** for multilingual mastery
-- **xAI Grok 4.1** for real-time knowledge
+- **xAI grok-4-1-fast-reasoning** for real-time knowledge
+- **ZhipuAI** for multilingual and reasoning capabilities
 - **MistralAI, MoonshotAI, Cloudflare Workers AI** and more
 
 But here's where it gets beautiful:

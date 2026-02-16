@@ -16,7 +16,8 @@ To use Chibi's full potential, you'll need API keys from various AI providers. T
 | **Mistral AI** | `MISTRALAI_API_KEY` | [console.mistral.ai](https://console.mistral.ai/) | European open-weights models. Navigate to "API Keys". |
 | **Alibaba Cloud** | `ALIBABA_API_KEY` | [modelstudio.console.alibabacloud.com](https://modelstudio.console.alibabacloud.com?tab=playground#/api-key) | Qwen (text) and Wan (image) models via DashScope. |
 | **Moonshot AI** | `MOONSHOTAI_API_KEY` | [platform.moonshot.cn](https://platform.moonshot.cn/) | Kimi models with long context (200K+ tokens). |
-| **MiniMax** | `MINIMAX_API_KEY` | [platform.minimaxi.com](https://platform.minimaxi.com/) | Text generation (MiniMax-M2.x) and high-quality speech synthesis. |
+| **MiniMax** | `MINIMAX_API_KEY` | [platform.minimaxi.com](https://platform.minimaxi.com/) | Text generation (MiniMax-M2.x), image generation (MiniMax-Image-01), and high-quality speech synthesis. |
+| **ZhipuAI** | `ZHIPUAI_API_KEY` | [z.ai/manage-apikey/apikey-list](https://z.ai/manage-apikey/apikey-list) | GLM models, strong Chinese language support, competitive pricing. |
 ## ☁️ Cloud & Infrastructure
 
 | Provider | Key Variable | Sign Up & Get Key | Notes |
