@@ -197,6 +197,6 @@ If safe commands are being blocked:
 
 ## Further Reading
 
-- [Agent Mode Overview](./agent-mode.md)
-- [MCP Integration](mcp-integration.md)
-- [Security Best Practices](../support/security-best-practices.md)
+- [Agent Mode Overview](/agent-mode/introduction)
+- [MCP Integration](/guides/mcp-integration)
+- [Security Best Practices](/agent-mode/best-practices)

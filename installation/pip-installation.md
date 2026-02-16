@@ -30,6 +30,9 @@ chibi config
 
 This will open the configuration file in your default editor where you can add your Telegram bot token and other settings.
 
+You can read more about Agent configuration here: [core settings](/configuration/core-settings)
+You can see the `env`-file template with all available settings here: [.env template](/configuration/env-template)
+
 ## Need More Control?
 
-If you need to customize the installation or run from source, see [Manual Setup](manual-setup.md).
+If you need to customize the installation or run from source, see [Manual Setup](/installation/manual-setup).

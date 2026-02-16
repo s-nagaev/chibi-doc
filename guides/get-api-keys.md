@@ -63,4 +63,4 @@ See [Deployment Modes](../configuration/deployment-modes.md) for more details.
 
 ---
 
-**Need help?** Check the [FAQ](../support/faq.md) or [Troubleshooting](../support/troubleshooting.md) guide.
+**Need help?** Check the [FAQ](/support/faq) or [Troubleshooting](/support/troubleshooting) guide.
