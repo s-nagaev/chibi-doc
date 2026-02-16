@@ -31,6 +31,42 @@ Control who can interact with your bot. By default, the bot is private.
 | `MESSAGE_FOR_DISALLOWED_USERS` | The specific message sent to a user who tries to interact with the bot but is not on the whitelist. | Standard rejection message |
 | `ALLOW_BOTS` | If `True`, the bot will respond to messages sent by other bots. | `False` |
 
+## Pre-start Security Checks
+
+Starting from version 1.6.1, Chibi performs automatic security validations before starting the bot to prevent dangerous configurations.
+
+### Security Rules
+
+1.  **Private Mode Requires User Whitelist**
+    *   If `PUBLIC_MODE=False` (default), you **must** configure `USERS_WHITELIST`.
+    *   Without a whitelist, unauthorized users could access your bot and incur API costs.
+    *   The bot will refuse to start if this condition is not met.
+
+2.  **Public Mode Blocks Filesystem Access**
+    *   If `PUBLIC_MODE=True`, you **cannot** enable `FILESYSTEM_ACCESS=True`.
+    *   Running a public bot with filesystem access is a severe security risk, as any user could potentially read or write files on your server.
+    *   The bot will refuse to start if this combination is detected.
+
+3.  **Warning: Filesystem Access in Groups**
+    *   If `FILESYSTEM_ACCESS=True` and the bot is added to groups (via `GROUPS_WHITELIST`), a warning is displayed.
+    *   Consider whether your group members need filesystem access before enabling this combination.
+
+### Example Secure Configuration
+
+```dotenv
+# Private bot with whitelisted users
+PUBLIC_MODE=False
+USERS_WHITELIST=123456789,@myusername
+FILESYSTEM_ACCESS=True
+```
+
+```dotenv
+# Public bot (users provide their own keys)
+PUBLIC_MODE=True
+USERS_WHITELIST=123456789,@myusername
+FILESYSTEM_ACCESS=False
+```
+
 ## General Behavior
 
 These settings control the bot's core functionality and user interface elements.

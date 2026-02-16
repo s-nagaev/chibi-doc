@@ -20,7 +20,8 @@ To use a specific provider, you must set its corresponding API key in your `.env
 | **Alibaba**       | `ALIBABA_API_KEY`       | Required for Qwen (text) and Wan (image) models.      |
 | **Cloudflare**    | `CLOUDFLARE_API_KEY`    | Required for Workers AI models.                       |
 | **Cloudflare**    | `CLOUDFLARE_ACCOUNT_ID` | **Required** if using Cloudflare. Your Account ID.    |
-| **MiniMax**       | `MINIMAX_API_KEY`       | Required for MiniMax models (Text & Speech).          |
+| **MiniMax**       | `MINIMAX_API_KEY`       | Required for MiniMax models (Text, Image & Speech).   |
+| **ZhipuAI**       | `ZHIPUAI_API_KEY`       | Required for GLM models (Chinese LLM leader).         |
 | **Moonshot**      | `MOONSHOTAI_API_KEY`    | Required for Kimi models.                             |
 | **ElevenLabs**    | `ELEVEN_LABS_API_KEY`   | Required for ElevenLabs TTS.                          |
 | **Suno**          | `SUNO_API_ORG_API_KEY`  | Required for Suno music generation (via sunoapi.org). |
@@ -41,11 +42,14 @@ You can specify which models Chibi should use by default.
 | `MODELS_WHITELIST`    | Comma-separated list of allowed models. If empty, all are allowed. | `None`               |
 
 ### Available Models (Examples)
+Please note that the full list of supported models is much larger, it is enormous. Here only few examples are provided:
 *   **OpenAI:** `gpt-5.2`, `gpt-5.1`, `o3`, `o4-mini`
 *   **Anthropic:** `claude-sonnet-4-5-20250929`, `claude-haiku-4-5-20251001`
-*   **Grok:** `grok-4-1-fast-reasoning`, `grok-beta`
+*   **Grok:** `grok-4-1-fast-reasoning`, `grok-4-1-reasoning`, `grok-beta`
 *   **Gemini:** `gemini-2.5-pro`, `gemini-3-pro`
 *   **Alibaba:** `qwen3-max`, `qwen-max`
+*   **MiniMax:** `MiniMax-M2.5`, `MiniMax-M2.5-highspeed`; `Image-01` (image)
+*   **ZhipuAI:** `glm-5`, `glm-4-flash`, `glm-4`, `glm-4-vision`
 
 ## Text Generation Parameters
 
@@ -88,8 +92,7 @@ Configure Speech-to-Text (STT) and Text-to-Speech (TTS) capabilities.
 ### MiniMax TTS Specific Settings
 For MiniMax Text-to-Speech, you can configure the following:
 
-| Variable      | Description                               | Default              |
-|:--------------|:------------------------------------------|:---------------------|
-| `MINIMAX_TTS_MODEL` | The specific MiniMax TTS model to use.    | `speech-2.8-turbo`   |
-| `MINIMAX_TTS_VOICE` | The voice to use for MiniMax TTS.         | `Korean_HaughtyLady` |
-
+| Variable            | Description                            | Default              |
+|:--------------------|:---------------------------------------|:---------------------|
+| `MINIMAX_TTS_MODEL` | The specific MiniMax TTS model to use. | `speech-2.8-turbo`   |
+| `MINIMAX_TTS_VOICE` | The voice to use for MiniMax TTS.      | `Korean_HaughtyLady` |
