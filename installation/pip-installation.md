@@ -2,9 +2,6 @@
 title: 'Pip Installation'
 description: 'Install Chibi via pip and use the CLI commands.'
 ---
-
-# Pip Installation
-
 ## Quick Install
 
 ```bash

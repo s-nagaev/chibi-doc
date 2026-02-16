@@ -42,7 +42,6 @@
         "pages": [
           "guides/get-api-keys",
           "guides/customize-personality",
-          "guides/multimedia-generation",
           "guides/persistent-history",
           "guides/secure-your-bot",
           "guides/mcp-integration",
