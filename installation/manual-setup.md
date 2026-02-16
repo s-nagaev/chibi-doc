@@ -41,6 +41,8 @@ TELEGRAM_BOT_TOKEN=your_token
 OPENAI_API_KEY=sk-...
 # ... other keys
 ```
+You can read more about Agent configuration here: [core settings](/configuration/core-settings)
+You can get the env file template with all available settings here: [.env template](/configuration/env-template)
 
 ### 4. Run the Bot
 
@@ -50,7 +52,7 @@ Start the bot using Poetry:
 poetry run python main.py
 ```
 
-> **Tip:** For a simpler installation, see [Pip Installation](pip-installation.md).
+> **Tip:** For a simpler installation, see [Pip Installation](/installation/pip-installation).
 
 ## Troubleshooting
 

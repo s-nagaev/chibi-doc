@@ -3,8 +3,6 @@ title: 'Troubleshooting'
 description: 'Common issues and how to fix them.'
 ---
 
-# Troubleshooting
-
 ### Bot is not responding
 1.  **Check Logs:** Run `docker-compose logs -f` to see if there are any errors.
 2.  **Check API Keys:** Ensure your `.env` file has valid API keys for the selected provider.

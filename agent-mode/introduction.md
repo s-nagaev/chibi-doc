@@ -57,4 +57,4 @@ The system uses a `CallTracker` to monitor how many times each tool is called by
 *   For complex multi-step tasks, consider using **Task Delegation** to split work across multiple agents.
 *   The thresholds can be customized per tool via `loop_warning` and `loop_break` class attributes if needed (advanced).
 
-> **Next:** [Threat Model & Risks](threat-model-risks.md)
+> **Next:** [Threat Model & Risks](/agent-mode/threat-model-risks)

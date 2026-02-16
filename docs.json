@@ -34,7 +34,8 @@
           "configuration/ai-providers",
           "configuration/deployment-modes",
           "configuration/storage-database",
-          "configuration/advanced-experimental"
+          "configuration/advanced-experimental",
+          "configuration/env-template"
         ]
       },
       {

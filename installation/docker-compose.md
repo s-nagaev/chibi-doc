@@ -66,6 +66,8 @@ services:
 volumes:
   chibi_data:
 ```
+You can read more about Agent configuration here: [core settings](/configuration/core-settings)
+You can get the env file template with all available settings here: [.env template](/configuration/env-template)
 
 ### 4. Start the Bot
 
